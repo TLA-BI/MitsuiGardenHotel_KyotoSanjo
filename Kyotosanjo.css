@@ -1,0 +1,395 @@
+
+    *{
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    div#htlBrdCrmbs{
+        margin: 0 auto;
+        max-width: 1600px;
+        width: 100%;
+
+    }
+    #htlContents{
+        margin-left:0;
+        max-width: 100%;
+    }
+
+    div#htlMainContent{
+        width:100%;
+        float:none;
+        padding-top:5px;
+        margin-left: auto;
+        margin-right:auto;
+        display:block !important;
+        background-color: rgb(242, 244, 245);
+    }
+    div#htlHeader{
+        max-width: 1600px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    div#trvlHtlTabNav {
+        max-width: 1600px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    div#trvlHtlSubNav{
+        max-width: 1600px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    div#RthCustomizeW{
+        clear: both;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+
+    }
+    #customizeView{
+        clear:both;
+        width:auto;
+        margin:0 auto 10px auto;
+        padding:0;
+    }
+    #htlSide-A{
+        display:none;
+    }
+    #wrapper{
+        min-width: 1200px;
+        margin-top: 25px;
+        font-size: 15px;
+        color: black;
+        margin: 0 auto;
+        font-family: "游明朝", "Yu Mincho", "游明朝体", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HiraMinProN-W3", "Times New Roman", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+    }
+    #header{
+
+        /* height:900px; */
+        margin-top:30px;
+        width:100%;
+        height:850px;
+        position:relative;
+        margin:0 auto;
+
+    }
+    .slider{
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        animation:  50s infinite img-change;
+        animation-timing-function: ease-in;
+        opacity:0
+    }
+    .slider:nth-child(1){
+        animation-delay: 0s;
+
+    }
+    .slider:nth-child(2){
+        animation-delay: 5s;
+    }
+    .slider:nth-child(3){
+        animation-delay: 10s;
+    }
+    .slider:nth-child(4){
+        animation-delay: 15s;
+    }
+    .slider:nth-child(5){
+        animation-delay: 20s;
+    }
+    .slider:nth-child(6){
+        animation-delay: 25s;
+    }
+    .slider:nth-child(7){
+        animation-delay: 30s;
+    }
+    .slider:nth-child(8){
+        animation-delay: 35s;
+
+    }
+
+
+    .slider img{
+        width:100%;
+        height:100%;
+
+        object-fit: cover;
+
+    }
+
+    @keyframes img-change{
+        0%{
+            opacity:0
+        }
+        10%{
+            opacity:1
+
+        }
+        20%{
+            opacity:1
+        }
+        30%{
+            opacity:1
+        }
+        40%{
+            opacity:0
+        }
+        100%{
+            opacity:0
+        }
+    }
+
+    #right_plan{
+        position:fixed;
+        z-index: 20;
+        width:4%;
+        height:20%;
+        top:450px;
+        right:0px;
+        background-color: white;
+
+    }
+    #right_plan a:hover{
+        background-color: #BB5400;
+    }
+
+    #right_plan a{
+        width:100%;
+        height:100%;
+        background-color: #fff;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.2s;
+        writing-mode: vertical-rl;
+        letter-spacing: 0.2em;
+        text-decoration: none;
+        min-height:100px;
+        background-color: 002C49;
+        color:white;
+        min-width:50px;
+    }
+
+    .bx-wrapper{
+        margin-bottom:0px;
+        border:none;
+    }
+    .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+        bottom: 10px;
+    }
+    .concept{
+        width:100%;
+        margin:0 auto;
+    }
+
+    .salepoint{
+        width:1200px;
+        margin:30px auto;
+
+
+    }
+    .salepoint .FirstPhoto{
+        display:flex;
+        margin-bottom:30px;
+    }
+    .salepoint .FirstPhotoText{
+        margin:auto auto;
+    }
+    .salepoint .FirstPhotoText a:hover{
+        background-color: #BB5400;
+        font-size: 17px;
+        transition: all 0.5s;
+        color:white;
+    }
+    .salepoint .FirstPhoto img{
+        width:800px;
+        height:auto;
+    }
+    .salepoint h2{
+        text-align: center;
+    }
+    .salepoint ul{
+        padding:0 0 ;
+        display:flex;
+        justify-content: space-between;
+        list-style: none;
+
+    }
+    .salepoint ul li{
+        width:33%;
+        aspect-ratio: 16 / 9;
+    }
+
+    .salepoint ul li h2{
+        text-shadow:1px 2px 3px grey;
+        font-size:20px;
+
+    }
+
+    .salepoint ul li img{
+        width:100%;
+        height:auto;
+    }
+    .salepoint ul li a{
+        width:100%;
+        height:50px;
+        text-shadow:1px 2px 3px grey;
+        margin-top:10px;
+
+    }
+    .salepoint ul li a:hover{
+        background-color: #BB5400;
+        font-size: 17px;
+        transition: all 0.5s;
+        color:white;
+    }
+    .link{
+        margin-top:15px;
+        height:30px;
+
+    }
+
+    .saleText{
+        margin-top:10px;
+        height:180px;
+    }
+
+
+    .map{
+        margin:30px auto;
+        width:1200px;
+        border:0;
+    }
+
+    .map iframe{
+        width:100%;
+        height:400px;
+    }
+    .map div{
+        margin-bottom:30px;
+        border:0;
+        margin:20px auto;
+    }
+    .map img{
+        border:0;
+    }
+    .access_right{
+
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.3s;
+        top:20px;
+        width:80px;
+        height:100px;
+        letter-spacing: 0.1em;
+
+    }
+    .access_right span{
+        width:70px;
+    }
+    .access {
+        width:1200px;
+        background-color: #fffaf0;
+        margin:30px auto;
+    }
+    .access ul{
+        list-style: none;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin:0 20px;
+      }
+    .access ul li{
+        width: 50%;
+        padding-left:10px;
+        padding-top:10px;
+        padding-bottom:10px;
+
+    }
+    .access ul li table{
+        height:100%;
+    }
+    .access ul li table tr{
+        height:50%;
+    }
+    .access ul li p{
+        padding:5px;
+    }
+    .access ul li:nth-child(2){
+        border-left:#BB5400 2px solid;
+    }
+
+    .access ul li h2{
+        font-size: 16px;
+    }
+
+    .righticon{
+        position: fixed;
+        right:30px;
+        top:20px;
+    }
+    .right{
+        float:right;
+        margin-top:20px;
+        width:140px;
+        justify-content: center;
+        align-items: center;
+    }
+    .parkingLine{
+        display: flex;
+        content: "";
+        width: 120px;
+        height: 1px;
+        background: #5c5959;
+        align-items: center;
+        justify-content: center;
+        margin-right:20px;
+        margin-top:20px;
+    }
+    .right a{
+        text-decoration: none;
+    }
+    .line{
+        width :90%;
+        margin-left:0;
+    }
+
+    .width{
+        margin-right:20px;
+    }
+
+    #footer{
+
+        width:100%;
+        background-color:  RGB(144,109,77);
+        color:white;
+        padding-top:20px;
+        padding-bottom:10px;
+
+    }
+    .f_col{
+        /* max-width:750px; */
+        margin:0px auto;
+        text-align: center;
+        list-style: none;
+
+    }
+    .f_col li{
+        margin-bottom:10px;
+    }
+    .f_col p{
+        margin-bottom:20px;
+    }
+
+    .logo img{
+        height:150px;
+    }
+    .adress{
+        margin-top:40px;
+    }
+    .cardLOGO img{
+        margin-bottom:20px;
+    }
