@@ -223,7 +223,7 @@
     }
 
     .salepoint ul li h2{
-        text-shadow:1px 2px 3px grey;
+        /* text-shadow:1px 2px 3px grey; */
         font-size:20px;
 
     }
@@ -393,5 +393,6 @@
     .cardLOGO img{
         margin-bottom:20px;
     }
+
 
 
