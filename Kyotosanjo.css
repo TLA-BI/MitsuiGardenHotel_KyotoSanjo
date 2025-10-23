@@ -115,7 +115,7 @@
 
     .slider img{
         width:100%;
-        height:auto;
+        height:1125px;
 
         object-fit: cover;
 
@@ -393,6 +393,7 @@
     .cardLOGO img{
         margin-bottom:20px;
     }
+
 
 
 
