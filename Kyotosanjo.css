@@ -70,7 +70,7 @@
         /* height:900px; */
         margin-top:30px;
         width:100%;
-        height:850px;
+        height:1125px;
         position:relative;
         margin:0 auto;
 
@@ -115,7 +115,7 @@
 
     .slider img{
         width:100%;
-        height:100%;
+        height:auto;
 
         object-fit: cover;
 
@@ -206,12 +206,10 @@
         color:white;
     }
     .salepoint .FirstPhoto img{
-        width:800px;
+        max-width:800px;
         height:auto;
     }
-    .salepoint h2{
-        text-align: center;
-    }
+
     .salepoint ul{
         padding:0 0 ;
         display:flex;
@@ -255,7 +253,7 @@
 
     .saleText{
         margin-top:10px;
-        height:180px;
+        height:120px;
     }
 
 
@@ -294,7 +292,7 @@
     }
     .access {
         width:1200px;
-        background-color: #fffaf0;
+        background-color: RGB(255,252,249);
         margin:30px auto;
     }
     .access ul{
@@ -366,7 +364,7 @@
     #footer{
 
         width:100%;
-        background-color:  RGB(144,109,77);
+        background-color:  RGB(46,38,23);
         color:white;
         padding-top:20px;
         padding-bottom:10px;
@@ -387,7 +385,7 @@
     }
 
     .logo img{
-        height:150px;
+        height:200px;
     }
     .adress{
         margin-top:40px;
